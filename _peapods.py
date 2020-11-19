@@ -37,13 +37,13 @@ def _sepatch(peapod) -> dict or tuple:
     return patch_pod
 
 openpeap_func = {
-        "set patch sort" : _setpatch,
+        "set patch sort" : _sepatch,
         "made null peapod" : _sepods,
         "set null pod index" : _sipea
 }
 
 # rename functions
-# smart programmer won't do that, it's so squitd
+# smart programmer won't do that, it's stupid
 _set_patch = openpeap_func["set patch sort"]
 _set_pods  = openPeap_func["made null peapod"]
 
