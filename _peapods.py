@@ -42,6 +42,11 @@ openpeap_func = {
         "set null pod index" : _sipea
 }
 
+# rename functions
+# smart programmer won't do that, it's so squitd
+_set_patch = openpeap_func["set patch sort"]
+_set_pods  = openPeap_func["made null peapod"]
+
 if __name__ == "__main__":
     cpy_func = pea().func
     cpy_func_nonclass = func_nonclass
