@@ -1,4 +1,4 @@
-#A style for Python
+# A style for Python
 
            1   2    3    4         n
 	 ___________________  ..  ____
